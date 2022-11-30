@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <h1>Operators & Expressions</h1>
+    <ol>
+        <li>
+            <h2>Add two Numbers</h2>
+    <h3>CODE :</h3>
+    <pre>
+        const AddTwoNumbers = (a,b) => {
+            return a+b;
+        };
+    </pre>
+    <h3>OUTPUT :</h3>
+    <PRE>
+        Input
+        2 5 
+
+        Output
+        7
+    </PRE>
+        </li>
+        <li>
+            <h2>Find if the conditions are obeyed or not?</h2>
+    <h3>CODE :</h3>
+    <pre>
+        const Is_Valid = (a,b) => {
+            return(a<=10 && a>b);            
+          };
+    </pre>
+    <h3>OUTPUT :</h3>
+    <pre>
+        Input
+        5 3 
+
+        Output
+        true
+    </pre>
+        </li>
+        <li>
+            
+    <h2>Check the conditons</h2>
+    <h3>CODE :</h3>
+    <pre>
+        const Check = (A, B) => 
+        {
+        if(A%10==0 && B%10==0){
+         return true;
+         }
+         else if(A%10==0){
+         return true;
+          }
+          else if(B%10==0){
+          return true;
+          }
+         else{
+         return false;
+        }
+    };
+    </pre>
+    <h3>OUTPUT :</h3>
+    <pre>
+        Input
+        12 20
+
+        Output
+        true
+    </pre>
+        </li>
+        <li>
+            <h2>Find the first digit of a 4 digit number</h2>
+    <h3>CODE :</h3>
+    <pre>
+        const First_Digit = (n) => {
+            let a=n/1000
+             return (Math.floor(a));
+            };
+    </pre>
+    <h3>OUTPUT :</h3>
+    <pre>
+        Input
+        4567
+
+        Output
+        4
+    </pre>
+        </li>
+        <li>
+            <h2>Find the last digit of a 4 digit number</h2>
+    <h3>CODE :</h3>
+    <pre>
+        const Last_Digit = (n) => {
+            let a = n%10;
+            return (Math.floor(a));
+         };
+    </pre>
+    <h3>OUTPUT :</h3>
+    <pre>
+        Input
+        4567
+
+        Output
+        7
+    </pre>
+        </li>
+        <li>
+            <h2>Find the remainder</h2>
+    <h3>CODE :</h3>
+    <pre>
+        const Find_the_remainder = (a,b) => {
+            return (a%b);
+        };
+    </pre>
+    <h3>OUTPUT :</h3>
+    <pre>
+        Input
+        2 9
+
+        Output
+        2
+    </pre>
+        </li>
+        <li>
+            <h2>Multipy two Numbers</h2>
+    <h3>CODE :</h3>
+    <pre>
+        const Multiply_two_number = (a,b) => {
+            return (a*b);
+        };
+    </pre>
+    <h3>OUTPUT :</h3>
+    <pre>
+        Input
+        2 9
+
+        Output
+        18
+    </pre>
+        </li>
+        <li>
+            <h2>Marks Calculator</h2>
+    <h3>CODE :</h3>
+    <pre>
+        const Sum = (A, B, C) => 
+        {
+          return(A+B+C);
+        };
+
+        const Average = (A, B, C) => 
+        {
+         return((A+B+C)/3);
+        };
+    </pre>
+    <h3>OUTPUT :</h3>
+    <pre>
+        Input
+        50 20 100
+
+        Output
+        170
+        56.666666666666664
+    </pre> 
+        </li>
+    </ol>
+</body>
+</html>
